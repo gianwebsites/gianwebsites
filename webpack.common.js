@@ -8,7 +8,7 @@ module.exports = {
     rules: [
       {
         test: /\.html$/,
-        use: ["html-loader"]
+        use: ["file-loader"]
       },
       {
         test: /\.(jpg|jpeg|png|gif|svg|pdf)$/,
